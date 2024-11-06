@@ -1,14 +1,11 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+# Compose Swift Bridge Sample
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+This repo contains the sample used from the Compose Swift Bridge announcement video.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+[Mix Native iOS Views in Compose Multiplatform With Touchlab's New Library!](https://www.youtube.com/watch?v=UukFp6TbcZ8)
 
+To see the changes, look at the first commit, which is an import of the stock [JetBrains KMP Wizard](https://kmp.jetbrains.com/) template project. The HEAD commit has all of the changes applied in the video.
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## [Compose Swift Bridge](https://touchlab.co/composeswiftbridge)
+
+Add native iOS views to your Compose Multiplatform application.
